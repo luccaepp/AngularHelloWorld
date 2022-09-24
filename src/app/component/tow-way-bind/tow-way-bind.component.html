@@ -1,0 +1,12 @@
+<div class="class">
+   
+    <h1>Tow way data bind</h1>
+    <form>
+        <input type="Text" [(ngModel)] = "name"
+        name = "name" placeholder="Digite seu nome">
+        <input type="submit" value="Enviar">
+    </form>
+    <div *ngIf="name !== ''">        O nome é {{name}}
+    </div>
+
+</div>
