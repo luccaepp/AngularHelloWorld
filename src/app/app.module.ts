@@ -13,7 +13,8 @@ import { ChangeComponent } from './component/change/change.component';
 import { ListRenderComponent } from './component/list-render/list-render.component';
 import { PipesComponent } from './component/pipes/pipes.component';
 import { TowWayBindComponent } from './component/tow-way-bind/tow-way-bind.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { ItemDetailComponent } from './component/item-detail/item-detail.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {HttpClientModule} from '@angular/common/http'
     ChangeComponent,
     ListRenderComponent,
     PipesComponent,
-    TowWayBindComponent
+    TowWayBindComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
